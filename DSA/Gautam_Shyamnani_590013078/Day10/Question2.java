@@ -8,7 +8,7 @@ public class Question2 {
         HashSet<Character> set = new HashSet<>();
 
         for (char ch : username.toCharArray()) {
-            set.add(ch); // stores only distinct characters
+            set.add(ch); 
         }
 
         if (set.size() % 2 == 0) {
